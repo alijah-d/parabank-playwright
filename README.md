@@ -1,6 +1,6 @@
-# ParaBank Playwright Test Automation
+# Playwright Test Automation (UI and API)
 
-A comprehensive test automation framework for ParaBank banking application using Playwright with TypeScript.
+A comprehensive test automation framework using Playwright with TypeScript.
 
 ## Test Scenarios
 
@@ -12,6 +12,13 @@ The main test covers:
 5. Fund transfers between accounts
 6. Bill payment processing
 7. Transaction search via API
+
+API Test covers:
+1. Create booking
+2. Retrieve booking
+3. Generate token
+4. Update booking
+5. Delete booking
 
 ## Setup
 
@@ -59,7 +66,11 @@ npx playwright test --debug
 │       ├── TransferFunds.ts        # Money transfers
 │       └── BillPay.ts              # Bill payment
 ├── tests/                          # Test specifications
+│   └── api-test-data/              # Test data for API Testing
+│       ├── post_request.json       # Request body for booking
+│       └── token_request.json      # Request body for token
 │   └── ui-scenarios.spec.ts        # Main test suite
+│   └── api-scenarios.spec.ts       # API test suite
 ├── utils/                          # Utility functions
 │   └── config.ts                   # Configuration
 └── playwright.config.ts            # Playwright configuration
