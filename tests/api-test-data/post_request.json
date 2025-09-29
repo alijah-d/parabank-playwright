@@ -1,0 +1,11 @@
+{
+    "firstname": "First Ever Tester",
+    "lastname": "Last Ever Tester",
+    "totalprice": 1588,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2025-05-01",
+        "checkout": "2025-06-01"
+    },
+    "additionalneeds": "glass of coke"
+}

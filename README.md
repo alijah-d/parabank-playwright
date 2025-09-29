@@ -39,6 +39,7 @@ npx playwright test --headed
 
 # Run specific test file
 npx playwright test ui-scenarios.spec.ts
+npx playwright test api-scenarios.spec.ts
 
 # Run with debug mode
 npx playwright test --debug
