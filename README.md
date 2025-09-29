@@ -69,7 +69,8 @@ npx playwright test --debug
 
 Environment variables can be set in `.env`:
 ```
-BASE_URL=https://parabank.parasoft.com/parabank
+BASE_URL=https://parabank.parasoft.com/
+API_BASE_URI=https://restful-booker.herokuapp.com
 ```
 
 ## Reports
